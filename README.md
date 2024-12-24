@@ -3,6 +3,7 @@ Vikash Weather App
 A simple and responsive weather application built using React that allows users to fetch weather data for a selected city and a specific date and time. The app uses the OpenWeatherMap API to provide accurate weather forecasts, including temperature, humidity, wind speed, and more.
 
 Features:
+
 City Search: Enter the name of a city to get the weather forecast.
 
 Date & Time Selection: Choose a specific date and time to get the weather forecast for that exact moment.
