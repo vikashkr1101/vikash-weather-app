@@ -12,7 +12,6 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-// In the App component, update the fetchWeather function:
 
 const fetchWeather = async (e) => {
   e.preventDefault();
@@ -38,7 +37,7 @@ const fetchWeather = async (e) => {
 
       if (forecasts.length > 0) {
         const forecast = forecasts[0];
-        forecast.dt = selectedDateTime.getTime() / 1000; // Set exact selected time
+        forecast.dt = selectedDateTime.getTime() / 1000; 
         setWeather({
           ...forecast,
           name: data.city.name,
