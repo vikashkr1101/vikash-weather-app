@@ -13,11 +13,15 @@ Error Handling: If no forecast is available for the selected date/time, or if th
 
 How to Use:
 Enter the City Name: Type the name of the city for which you want to get the weather.
-Select a Date: Choose a date from the calendar (within the next 5 days).
+
+Select a Date: Choose a date from the calendar.
+
 Select a Time: Pick a specific time on the selected date.
+
 Click 'Search': The weather forecast for the selected city, date, and time will be displayed.
 
 Technologies Used:
+
 React: JavaScript library for building user interfaces.
 
 OpenWeatherMap API: Weather data API used for fetching current and forecast weather.
