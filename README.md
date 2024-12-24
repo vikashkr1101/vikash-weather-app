@@ -13,6 +13,7 @@ Weather Data: Displays real-time temperature, weather condition, humidity, wind 
 Error Handling: If no forecast is available for the selected date/time, or if there’s an issue with fetching data, the app shows an error message.
 
 How to Use:
+
 Enter the City Name: Type the name of the city for which you want to get the weather.
 
 Select a Date: Choose a date from the calendar.
